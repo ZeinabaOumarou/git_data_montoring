@@ -1,7 +1,7 @@
 TRUNCATE TABLE Courses CASCADE;
 
 INSERT INTO Courses (course_id , teacher_id, course_name) VALUES
-(1, 1, 'Mathematic'),
+(1, 1, 'Mathematics'),
 (2, 1, 'Mechanics'),
 (3, 1, 'Algebra'),
 
