@@ -1,0 +1,11 @@
+
+git merge feature/change1 : permet de basculer les modification de la branch feature vers la main. s'assurer d'etre sur la branche main avant d'executer cette requete 
+git merge feature/change2
+
+git stash : mettre en stand by une branch qui a ete add . sans etre commit.
+
+git stash save "my stash change psswourd" : permet de donner un nom a mon stash
+
+git stash list : permet de oir le nombre de mes branch et modification en cours
+
+
