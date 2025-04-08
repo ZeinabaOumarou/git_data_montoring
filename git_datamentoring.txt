@@ -8,4 +8,10 @@ git stash save "my stash change psswourd" : permet de donner un nom a mon stash
 
 git stash list : permet de oir le nombre de mes branch et modification en cours
 
+git stash pop : permet d'enlever le dernier stash de ta pile de stash et de le ramener dans ta branche normale.
 
+git stash show -p nom_stash : pour voir le contenu de mon git stash.
+
+git stash apply : permet d'appliquer mon stash comme fait le git stash pop ( apres on peut faire un git add a nouveau et un git commit
+
+git stash clear : par contre lui supprimer tes stash sans que tu puisses recuperer.
